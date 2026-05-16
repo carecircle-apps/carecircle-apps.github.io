@@ -1,7 +1,7 @@
 # =============================================================================
 # CareCircle legal site — Jekyll configuration.
 #
-# This site lives at https://carecircle-app.github.io and serves two pages:
+# This site lives at https://carecircle-apps.github.io and serves two pages:
 #   /legal/privacy   (Privacy Policy)
 #   /legal/terms     (Terms of Use)
 #
@@ -14,7 +14,7 @@ title: CareCircle
 description: Family-led care coordination. Adelante.
 
 # Use the repo root as the site root (`<org>.github.io` style user/org site).
-url: https://carecircle-app.github.io
+url: https://carecircle-apps.github.io
 baseurl: ""
 
 # Pretty URLs — `/legal/privacy/index.md` becomes `/legal/privacy/` (which

@@ -2,9 +2,9 @@
 
 This folder is the static site that serves CareCircle's Privacy Policy and Terms of Use at the URLs the app links to:
 
-- https://carecircle-app.github.io
-- https://carecircle-app.github.io/legal/privacy
-- https://carecircle-app.github.io/legal/terms
+- https://carecircle-apps.github.io
+- https://carecircle-apps.github.io/legal/privacy
+- https://carecircle-apps.github.io/legal/terms
 
 Those URLs are hard-coded in `app.json` under `expo.extra.privacyPolicyUrl` and `expo.extra.termsUrl`, and rendered as clickable links from the in-app Disclaimer screen and the Security → Legal card. If you change the URLs, you must rebuild the app.
 
@@ -16,7 +16,7 @@ The legal markdown lives in `legal/privacy.md` and `legal/terms.md` at the repo 
 
 ### 1. Create the GitHub organization
 
-The URL `carecircle-app.github.io` requires a GitHub user OR organization named exactly `carecircle-app`. The cleanest setup is an org so multiple maintainers can contribute.
+The URL `carecircle-apps.github.io` requires a GitHub user OR organization named exactly `carecircle-app`. The cleanest setup is an org so multiple maintainers can contribute.
 
 1. Go to https://github.com/account/organizations/new
 2. Pick the **Free** plan
@@ -27,8 +27,8 @@ The URL `carecircle-app.github.io` requires a GitHub user OR organization named 
 
 ### 2. Create the Pages repository
 
-1. While signed in, go to https://github.com/organizations/carecircle-app/repositories/new
-2. Repository name: `carecircle-app.github.io` (must match exactly)
+1. While signed in, go to https://github.com/organizations/carecircle-apps/repositories/new
+2. Repository name: `carecircle-apps.github.io` (must match exactly)
 3. Public (required for free GitHub Pages)
 4. Do not initialize with a README — we have our own files to push
 5. Click **Create repository**
@@ -46,7 +46,7 @@ cd gh-pages-site
 git init -b main
 git add .
 git commit -m "Initial CareCircle legal site"
-git remote add origin git@github.com:carecircle-app/carecircle-app.github.io.git
+git remote add origin git@github.com:carecircle-apps/carecircle-apps.github.io.git
 git push -u origin main
 ```
 
@@ -65,9 +65,9 @@ GitHub will build the site on every push to `main`. The first build takes about 
 
 Open each URL in a browser:
 
-- https://carecircle-app.github.io — landing page with links
-- https://carecircle-app.github.io/legal/privacy — Privacy Policy
-- https://carecircle-app.github.io/legal/terms — Terms of Use
+- https://carecircle-apps.github.io — landing page with links
+- https://carecircle-apps.github.io/legal/privacy — Privacy Policy
+- https://carecircle-apps.github.io/legal/terms — Terms of Use
 
 These are the URLs the app links to. If any 404s, check the **Actions** tab on the Pages repo for build errors.
 
@@ -90,7 +90,7 @@ Then re-push the `gh-pages-site/` subtree to the Pages repo. The simplest patter
 
 ```sh
 git subtree push --prefix gh-pages-site \
-  git@github.com:carecircle-app/carecircle-app.github.io.git main
+  git@github.com:carecircle-apps/carecircle-apps.github.io.git main
 ```
 
 You can also clone the Pages repo separately and copy the files over manually if subtree gives you trouble.
