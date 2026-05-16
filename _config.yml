@@ -1,0 +1,39 @@
+# =============================================================================
+# CareCircle legal site — Jekyll configuration.
+#
+# This site lives at https://carecircle-app.github.io and serves two pages:
+#   /legal/privacy   (Privacy Policy)
+#   /legal/terms     (Terms of Use)
+#
+# GitHub Pages builds this with the `github-pages` gem on every push to main.
+# We deliberately avoid themed sites — legal pages should be plain, readable,
+# and printable. Custom layout lives in _layouts/default.html.
+# =============================================================================
+
+title: CareCircle
+description: Family-led care coordination. Adelante.
+
+# Use the repo root as the site root (`<org>.github.io` style user/org site).
+url: https://carecircle-app.github.io
+baseurl: ""
+
+# Pretty URLs — `/legal/privacy/index.md` becomes `/legal/privacy/` (which
+# also serves at `/legal/privacy` without the trailing slash).
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# We supply our own layout instead of a theme.
+theme: null
+
+# Skip noisy / sensitive files when building the site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore

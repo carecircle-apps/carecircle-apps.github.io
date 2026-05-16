@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FDFAF6">
+  <title>{{ page.title | default: site.title }} — CareCircle</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Open Graph / iMessage preview -->
+  <meta property="og:title" content="{{ page.title | default: site.title }} — CareCircle">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+
+  <style>
+    /* -----------------------------------------------------------------------
+       CareCircle legal site styling — readable, printable, no JS required.
+       Color palette intentionally matches the app: warm cream background,
+       sage primary, terracotta for emphasis.
+       ------------------------------------------------------------------- */
+    :root {
+      --bg: #FDFAF6;
+      --surface: #FFFFFF;
+      --text: #2A2A2A;
+      --muted: #6B6B6B;
+      --primary: #5B7F5E;
+      --warn: #C45B4A;
+      --border: #E6DFD2;
+      --link: #3F6F8E;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      font-size: 17px; line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: var(--primary); }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    header.site {
+      display: flex; align-items: center; gap: 12px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    header.site .logo {
+      width: 44px; height: 44px;
+      border-radius: 22px;
+      background: var(--surface);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      font-size: 22px;
+    }
+    header.site .brand {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 22px;
+      letter-spacing: -0.3px;
+    }
+    header.site .tagline {
+      color: var(--muted);
+      font-size: 14px;
+      margin-left: auto;
+    }
+    main h1 {
+      font-size: 32px; line-height: 1.2;
+      color: var(--primary);
+      margin-top: 8px; margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    main h2 {
+      font-size: 22px; line-height: 1.3;
+      color: var(--text);
+      margin-top: 36px; margin-bottom: 12px;
+      letter-spacing: -0.3px;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+    main h2:first-of-type { border-top: none; padding-top: 0; margin-top: 24px; }
+    main h3 {
+      font-size: 18px;
+      margin-top: 24px; margin-bottom: 8px;
+      color: var(--text);
+    }
+    main p { margin: 12px 0; }
+    main ul, main ol { padding-left: 22px; margin: 12px 0; }
+    main li { margin: 6px 0; }
+    main strong { font-weight: 700; color: var(--text); }
+    main em { color: var(--muted); }
+    main code {
+      background: #F0EBE0;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.92em;
+    }
+    main blockquote {
+      border-left: 3px solid var(--warn);
+      padding: 4px 16px;
+      margin: 16px 0;
+      color: var(--muted);
+      background: rgba(196,91,74,0.05);
+      border-radius: 0 6px 6px 0;
+    }
+    main hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+    .stamp {
+      display: inline-block;
+      padding: 4px 10px;
+      background: rgba(91,127,94,0.10);
+      color: var(--primary);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .callout {
+      background: rgba(196,91,74,0.06);
+      border: 1px solid rgba(196,91,74,0.20);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 18px 0;
+    }
+    .callout strong { color: var(--warn); }
+    footer.site {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    footer.site nav a { margin-right: 14px; }
+
+    /* Print: clean white, no decoration */
+    @media print {
+      :root { --bg: #FFFFFF; --surface: #FFFFFF; }
+      header.site, footer.site { border-color: #000; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div class="logo" aria-hidden="true">💛</div>
+      <a href="/" class="brand" style="text-decoration:none">CareCircle</a>
+      <span class="tagline">Family-led care coordination</span>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site">
+      <nav>
+        <a href="/legal/privacy">Privacy Policy</a>
+        <a href="/legal/terms">Terms of Use</a>
+        <a href="mailto:support@carecircle.app">support@carecircle.app</a>
+      </nav>
+      <span style="margin-left:auto">© Lifted Labs LLC · Adelante. 💛</span>
+    </footer>
+  </div>
+</body>
+</html>
