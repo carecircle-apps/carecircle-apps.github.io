@@ -4,7 +4,7 @@ permalink: /legal/privacy/
 title: "Privacy Policy"
 description: "How CareCircle handles your data — what we collect, where it lives, and your rights over it."
 ---
-**Last updated: November 14, 2026**
+**Last updated: September 8, 2026**
 
 CareCircle is a family-led care coordination app built by Lifted Labs. This Privacy Policy explains what information we collect, how we use it, where it lives, and your rights over it. It's written to be understood, not just to satisfy a checklist.
 
@@ -56,7 +56,6 @@ CareCircle collects information in three categories.
 The following stays on your device, encrypted with AES-256 using a key in iOS Keychain that we cannot access:
 
 - Your device PIN (hashed, salted)
-- Your Anthropic Claude API key (if you provide one)
 - Patient context documents (cached, even when synced to cloud)
 - AI insights and learnings
 - Chat history (cached)
@@ -80,14 +79,20 @@ Each user can only read data from circles they belong to. We use Postgres Row-Le
 
 ### AI processing (Anthropic Claude)
 
-When you use AI features (Ask AI, Handoff Brief, Doctor Rounds Prep, etc.), CareCircle sends the relevant patient context to **Anthropic's Claude API** using **your own API key that you provide**. This means:
+When you enable AI sharing and send a question, your question and selected care context pass through **CareCircle's server** to **Anthropic's Claude API**. Lifted Labs supplies the provider account; you do not need to supply an API key. This processing can include sensitive health information you have chosen to record. Only share information you are authorized to share.
 
-- Anthropic processes the data under their privacy policy (https://www.anthropic.com/legal/privacy)
-- CareCircle never sees, stores, or has access to these AI conversations
-- You are the data controller for AI calls; Anthropic is the processor
-- You can stop AI processing at any time by removing your Claude API key from More → AI Key
+- Questions may also be sent to CareCircle's server for safety and reference-library lookups.
+- The model receives the context selected for that request. It may not include every record; missing or outdated information can affect answers.
+- Anthropic processes submitted data under its applicable commercial terms and [privacy policy](https://www.anthropic.com/legal/privacy).
+- CareCircle processes the request to provide the answer and enforce usage limits. The AI quota service does not retain plaintext prompts or context. Successful answers are encrypted for safe retries. Retry access expires after 24 hours, and an hourly cleanup removes expired answers from the active database, normally within 25 hours of completion. This is server encryption, not end-to-end encryption. Database backups may retain earlier encrypted copies under the hosting provider's backup retention. The app may separately retain answers in your conversation history.
+- Account-linked usage records, request identifiers, and subscription status are used to prevent duplicate charges, enforce allowances, and control service costs. These records do not contain your prompt text.
+- You can turn off AI sharing in AI options. This prevents future AI requests; it cannot recall information already processed. AI sharing consent is separate from purchasing a subscription.
 
-You can also use CareCircle without AI features by simply not providing an API key.
+Care coordination features can be used without enabling AI sharing. Older app versions allowed personal API keys. The updated app does not read or use those keys for AI requests.
+
+### Apple subscriptions
+
+Apple processes subscription payments. CareCircle receives purchase identifiers, product and renewal/expiration information, and an account identifier linking a verified purchase to your CareCircle account. We use Apple's signed transaction information to verify access and manage your question allowance. CareCircle does not receive your full payment-card or bank details from Apple. Manage or cancel a subscription through your Apple account; deleting your CareCircle account does not itself cancel an Apple subscription.
 
 ### Apple iCloud (for photos)
 
@@ -118,8 +123,8 @@ You can, at any time, from inside the app:
 
 - **Export your data** by emailing support@carecircle.app
 - **Delete your account** via More → Security → Delete Account. This permanently erases your user record, your circle memberships, all chat messages you sent, all milestones you created, all patient context you uploaded, and all AI learnings tied to you. This action cannot be undone.
-- **Sign out from any device** via More → Security → Sign Out. This clears your local cache, including your Claude API key and any cached patient data.
-- **Withdraw consent for AI processing** by removing your Anthropic API key.
+- **Sign out from any device** via More → Security → Sign Out.
+- **Withdraw consent for AI processing** by switching off AI sharing in AI options.
 - **Leave a care circle** without deleting your account, in More → Circle.
 
 For users in jurisdictions with specific privacy rights (California CCPA, EU GDPR, Washington MHMDA, etc.), you have additional rights including access, correction, portability, deletion, and the right to opt out of certain processing. Email support@carecircle.app with your request and we will respond within 30 days.

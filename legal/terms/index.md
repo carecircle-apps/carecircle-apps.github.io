@@ -4,7 +4,7 @@ permalink: /legal/terms/
 title: "Terms of Use"
 description: "The agreement that governs your use of CareCircle, the family-led care coordination app."
 ---
-**Last updated: November 14, 2026**
+**Last updated: September 8, 2026**
 
 These Terms of Use ("Terms") govern your use of the CareCircle mobile application and related services, provided by **Lifted Labs LLC** ("we," "us," "Lifted Labs," or "CareCircle"). By using CareCircle, you agree to these Terms. If you don't agree, please do not use the app.
 
@@ -84,16 +84,11 @@ You're responsible for ensuring you have the right to share Your Content (e.g., 
 
 ## 6. AI Features and Third-Party Services
 
-CareCircle's AI features call **Anthropic's Claude API** using **your own API key**. This means:
-
-- You are the customer of Anthropic for those calls
-- Anthropic's privacy policy and terms govern that processing
-- You're responsible for the API costs (typically pennies per use)
-- CareCircle never sees the AI conversations themselves
+CareCircle's AI questions use **Anthropic's Claude API** through CareCircle's server and Lifted Labs' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by CareCircle and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
 
 We make no warranties about AI accuracy. AI output is a tool, not a fact. Always verify clinical content with your healthcare team.
 
-If you choose not to provide an Anthropic API key, AI features are simply unavailable. The rest of the app works without them.
+You can use care coordination features without enabling AI sharing. AI may be temporarily unavailable because of connection problems, provider interruptions, or service limits. The app shows available question counts when it can verify them with the server.
 
 CareCircle also uses Supabase (database + auth + realtime) and Apple services (Keychain, Photos, iCloud). Your data flows through these services per their own terms.
 
@@ -115,9 +110,15 @@ We may suspend accounts that violate these rules.
 
 ## 8. Pricing and Subscriptions
 
-CareCircle is currently free during our beta period. We will provide at least 30 days' notice before introducing paid tiers, and existing free users will receive a grace period to evaluate.
+Eligible verified CareCircle accounts receive **25 free AI answers**, funded by Lifted Labs. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
 
-You may incur charges from Anthropic for AI usage (per your own API key) — that's not a CareCircle charge.
+Where available for purchase, **CareCircle AI Monthly** is **US $7.99 per month**, and **CareCircle AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing CareCircle account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
+
+Subscriptions renew automatically unless canceled through Apple before renewal. Apple charges your Apple account and handles payment, subscription management, and refund requests under its terms. You can restore eligible purchases and open subscription management from the app. Deleting the app or your CareCircle account does not cancel an Apple subscription.
+
+Only a successfully completed model answer consumes an AI question. A safe retry of the same completed request does not consume a second question. If a response was completed but its delivery was interrupted, it may already be counted; retry the same request to recover it. Deterministic safety notices and allowance refreshes do not consume model questions.
+
+During beta, an offer may be displayed before Apple purchasing is enabled. If the app says purchases are unavailable, it cannot take a subscription payment. Existing beta users will receive the notice and evaluation grace period previously promised before paid access restrictions are introduced.
 
 ---
 
