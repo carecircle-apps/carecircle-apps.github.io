@@ -6,9 +6,9 @@ description: "How CareCircle handles your data — what we collect, where it liv
 ---
 **Last updated: September 8, 2026**
 
-CareCircle is a family-led care coordination app built by Lifted Labs. This Privacy Policy explains what information we collect, how we use it, where it lives, and your rights over it. It's written to be understood, not just to satisfy a checklist.
+CareCircle is a family-led care coordination app built by Ricardo Ochoa. This Privacy Policy explains what information we collect, how we use it, where it lives, and your rights over it. It's written to be understood, not just to satisfy a checklist.
 
-If you have questions, email **support@carecircle.app**.
+If you have questions, email **carecircle89@icloud.com**.
 
 ---
 
@@ -79,7 +79,7 @@ Each user can only read data from circles they belong to. We use Postgres Row-Le
 
 ### AI processing (Anthropic Claude)
 
-When you enable AI sharing and send a question, your question and selected care context pass through **CareCircle's server** to **Anthropic's Claude API**. Lifted Labs supplies the provider account; you do not need to supply an API key. This processing can include sensitive health information you have chosen to record. Only share information you are authorized to share.
+When you enable AI sharing and send a question, your question and selected care context pass through **CareCircle's server** to **Anthropic's Claude API**. Ricardo Ochoa supplies the provider account; you do not need to supply an API key. This processing can include sensitive health information you have chosen to record. Only share information you are authorized to share.
 
 - Questions may also be sent to CareCircle's server for safety and reference-library lookups.
 - The model receives the context selected for that request. It may not include every record; missing or outdated information can affect answers.
@@ -121,13 +121,13 @@ We do not use your data for:
 
 You can, at any time, from inside the app:
 
-- **Export your data** by emailing support@carecircle.app
+- **Export your data** by emailing carecircle89@icloud.com
 - **Delete your account** via More → Security → Delete Account. This permanently erases your user record, your circle memberships, all chat messages you sent, all milestones you created, all patient context you uploaded, and all AI learnings tied to you. This action cannot be undone.
 - **Sign out from any device** via More → Security → Sign Out.
 - **Withdraw consent for AI processing** by switching off AI sharing in AI options.
 - **Leave a care circle** without deleting your account, in More → Circle.
 
-For users in jurisdictions with specific privacy rights (California CCPA, EU GDPR, Washington MHMDA, etc.), you have additional rights including access, correction, portability, deletion, and the right to opt out of certain processing. Email support@carecircle.app with your request and we will respond within 30 days.
+For users in jurisdictions with specific privacy rights (California CCPA, EU GDPR, Washington MHMDA, etc.), you have additional rights including access, correction, portability, deletion, and the right to opt out of certain processing. Email carecircle89@icloud.com with your request and we will respond within 30 days.
 
 ---
 
@@ -147,7 +147,7 @@ We use the following measures to protect your information:
 - **Storage encryption:** Supabase encrypts data at rest using AES-256. iOS Keychain encrypts on-device data
 - **Authentication:** device-level PIN, optional Face ID / Touch ID, and Supabase email + password
 - **Row-Level Security:** database-level access controls so users can only read data for circles they belong to
-- **Limited employee access:** no Lifted Labs employee has routine access to your personal data; access is logged and audited
+- **Limited employee access:** no Ricardo Ochoa employee has routine access to your personal data; access is logged and audited
 
 No system is 100% secure. If we discover a data breach, we will notify affected users within 60 days as required by the FTC Health Breach Notification Rule.
 
@@ -170,10 +170,10 @@ We may update this policy as CareCircle evolves. We will notify you in the app o
 
 ## Contact
 
-Lifted Labs LLC
-Email: **support@carecircle.app**
+Ricardo Ochoa
+Email: **carecircle89@icloud.com**
 
-For privacy-specific questions: **privacy@carecircle.app**
+For privacy-specific questions: **carecircle89@icloud.com**
 
 ---
 

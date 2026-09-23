@@ -7,9 +7,9 @@ permalink: /
 
 # CareCircle
 
-Family-led care coordination for hospitalized or chronically ill loved ones. Built by [Lifted Labs LLC](mailto:support@carecircle.app).
+Family-led care coordination for hospitalized or chronically ill loved ones. Built by [Ricardo Ochoa](mailto:carecircle89@icloud.com).
 
-CareCircle is currently in beta on the App Store. The pages below are the official legal documents that govern your use of the app.
+CareCircle is currently in beta testing through TestFlight. The pages below are the official legal documents that govern your use of the app.
 
 <div class="callout">
 <strong>Important:</strong> CareCircle is not a medical device, not a healthcare provider, and not a substitute for professional medical care. In an emergency, call 911 or your local emergency number.
@@ -22,13 +22,13 @@ CareCircle is currently in beta on the App Store. The pages below are the offici
 
 ## Get the app
 
-CareCircle is available for iOS. Search for "CareCircle" on the App Store, or visit our support page below.
+CareCircle is being prepared for public release on iOS. Visit our [support page](/support/) for help.
 
 ## Contact
 
-- General: **[support@carecircle.app](mailto:support@carecircle.app)**
-- Privacy: **[privacy@carecircle.app](mailto:privacy@carecircle.app)**
-- Legal: **[legal@carecircle.app](mailto:legal@carecircle.app)**
+- General: **[carecircle89@icloud.com](mailto:carecircle89@icloud.com)**
+- Privacy: **[carecircle89@icloud.com](mailto:carecircle89@icloud.com)**
+- Legal: **[carecircle89@icloud.com](mailto:carecircle89@icloud.com)**
 
 ---
 

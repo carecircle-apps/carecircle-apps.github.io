@@ -6,9 +6,9 @@ description: "The agreement that governs your use of CareCircle, the family-led 
 ---
 **Last updated: September 8, 2026**
 
-These Terms of Use ("Terms") govern your use of the CareCircle mobile application and related services, provided by **Lifted Labs LLC** ("we," "us," "Lifted Labs," or "CareCircle"). By using CareCircle, you agree to these Terms. If you don't agree, please do not use the app.
+These Terms of Use ("Terms") govern your use of the CareCircle mobile application and related services, provided by **Ricardo Ochoa** ("we," "us," "Ricardo Ochoa," or "CareCircle"). By using CareCircle, you agree to these Terms. If you don't agree, please do not use the app.
 
-If you have questions, email **support@carecircle.app**.
+If you have questions, email **carecircle89@icloud.com**.
 
 ---
 
@@ -84,7 +84,7 @@ You're responsible for ensuring you have the right to share Your Content (e.g., 
 
 ## 6. AI Features and Third-Party Services
 
-CareCircle's AI questions use **Anthropic's Claude API** through CareCircle's server and Lifted Labs' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by CareCircle and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
+CareCircle's AI questions use **Anthropic's Claude API** through CareCircle's server and Ricardo Ochoa' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by CareCircle and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
 
 We make no warranties about AI accuracy. AI output is a tool, not a fact. Always verify clinical content with your healthcare team.
 
@@ -110,7 +110,7 @@ We may suspend accounts that violate these rules.
 
 ## 8. Pricing and Subscriptions
 
-Eligible verified CareCircle accounts receive **25 free AI answers**, funded by Lifted Labs. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
+Eligible verified CareCircle accounts receive **25 free AI answers**, funded by Ricardo Ochoa. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
 
 Where available for purchase, **CareCircle AI Monthly** is **US $7.99 per month**, and **CareCircle AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing CareCircle account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
 
@@ -146,7 +146,7 @@ Some jurisdictions don't allow certain exclusions or limitations. In those cases
 
 ## 11. Indemnification
 
-You agree to defend, indemnify, and hold harmless Lifted Labs and its officers, employees, and agents from any claim arising out of your use of CareCircle, your violation of these Terms, your violation of any third party's rights, or any content you submit.
+You agree to defend, indemnify, and hold harmless Ricardo Ochoa and its officers, employees, and agents from any claim arising out of your use of CareCircle, your violation of these Terms, your violation of any third party's rights, or any content you submit.
 
 ---
 
@@ -156,7 +156,7 @@ These Terms are governed by the laws of the State of California, USA, without re
 
 For disputes that cannot be resolved through good-faith negotiation:
 
-- **Informal resolution:** before filing any formal claim, you agree to contact us at support@carecircle.app and give us 30 days to attempt resolution.
+- **Informal resolution:** before filing any formal claim, you agree to contact us at carecircle89@icloud.com and give us 30 days to attempt resolution.
 - **Small claims court:** either party may bring an individual action in small claims court.
 - **Otherwise:** disputes will be resolved by binding arbitration in Los Angeles County, California, under the Commercial Arbitration Rules of the American Arbitration Association. You waive the right to a jury trial and to participate in class actions.
 
@@ -172,15 +172,15 @@ If any provision of these Terms is found unenforceable, the rest remains in effe
 
 ## 14. Entire Agreement
 
-These Terms, together with the Privacy Policy, constitute the entire agreement between you and Lifted Labs regarding CareCircle.
+These Terms, together with the Privacy Policy, constitute the entire agreement between you and Ricardo Ochoa regarding CareCircle.
 
 ---
 
 ## Contact
 
-Lifted Labs LLC
-Email: **support@carecircle.app**
-Legal: **legal@carecircle.app**
+Ricardo Ochoa
+Email: **carecircle89@icloud.com**
+Legal: **carecircle89@icloud.com**
 
 ---
 
