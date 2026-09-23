@@ -1,5 +1,5 @@
 # =============================================================================
-# CareCircle legal site — Jekyll configuration.
+# Juntos legal site — Jekyll configuration.
 #
 # This site lives at https://carecircle-apps.github.io and serves two pages:
 #   /legal/privacy   (Privacy Policy)
@@ -10,7 +10,7 @@
 # and printable. Custom layout lives in _layouts/default.html.
 # =============================================================================
 
-title: CareCircle
+title: Juntos
 description: Family-led care coordination. Adelante.
 
 # Use the repo root as the site root (`<org>.github.io` style user/org site).

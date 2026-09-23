@@ -2,41 +2,41 @@
 layout: default
 permalink: /legal/terms/
 title: "Terms of Use"
-description: "The agreement that governs your use of CareCircle, the family-led care coordination app."
+description: "The agreement that governs your use of Juntos, the family-led care coordination app."
 ---
 **Last updated: September 8, 2026**
 
-These Terms of Use ("Terms") govern your use of the CareCircle mobile application and related services, provided by **Ricardo Ochoa** ("we," "us," "Ricardo Ochoa," or "CareCircle"). By using CareCircle, you agree to these Terms. If you don't agree, please do not use the app.
+These Terms of Use ("Terms") govern your use of the Juntos mobile application and related services, provided by **Ricardo Ochoa** ("we," "us," "Ricardo Ochoa," or "Juntos"). By using Juntos, you agree to these Terms. If you don't agree, please do not use the app.
 
 If you have questions, email **carecircle89@icloud.com**.
 
 ---
 
-## 1. CareCircle Is Not a Medical Device or Medical Service
+## 1. Juntos Is Not a Medical Device or Medical Service
 
 This is the most important thing to understand.
 
-CareCircle is a family-led care coordination tool. **CareCircle is not a medical device, not a healthcare provider, not a substitute for professional medical care, and does not provide medical advice.**
+Juntos is a family-led care coordination tool. **Juntos is not a medical device, not a healthcare provider, not a substitute for professional medical care, and does not provide medical advice.**
 
-- Information you record in CareCircle (vitals, symptoms, AI-generated summaries, etc.) is for your own family's reference and convenience.
+- Information you record in Juntos (vitals, symptoms, AI-generated summaries, etc.) is for your own family's reference and convenience.
 - AI-generated content (handoff briefs, rounds questions, lab interpretations, family updates, etc.) is a draft starting point, not a clinical assessment. AI can be wrong, miss important details, or generate misleading text. Always verify with your healthcare team.
-- CareCircle does not diagnose, treat, cure, or prevent any disease or condition.
-- Do not rely on CareCircle in an emergency. If you believe someone is having a medical emergency, call 911 (or your local emergency number) or go to the nearest emergency department.
+- Juntos does not diagnose, treat, cure, or prevent any disease or condition.
+- Do not rely on Juntos in an emergency. If you believe someone is having a medical emergency, call 911 (or your local emergency number) or go to the nearest emergency department.
 - Always defer to your loved one's licensed physicians, nurses, and other healthcare professionals.
 
-CareCircle has not been evaluated by the FDA. We make no claims about clinical accuracy, treatment outcomes, or healthcare benefits.
+Juntos has not been evaluated by the FDA. We make no claims about clinical accuracy, treatment outcomes, or healthcare benefits.
 
 ---
 
-## 2. Who Can Use CareCircle
+## 2. Who Can Use Juntos
 
-You can use CareCircle if:
+You can use Juntos if:
 
 - You are 18 years or older (or the age of majority in your jurisdiction)
-- You are using CareCircle to help coordinate care for yourself, a family member, or a loved one who has consented to your involvement (or who has appointed you as their healthcare surrogate, power of attorney, or guardian)
+- You are using Juntos to help coordinate care for yourself, a family member, or a loved one who has consented to your involvement (or who has appointed you as their healthcare surrogate, power of attorney, or guardian)
 - You agree to these Terms
 
-You may NOT use CareCircle:
+You may NOT use Juntos:
 
 - For commercial healthcare delivery (we are not a HIPAA Business Associate)
 - To document the care of someone who has not consented to your involvement
@@ -56,7 +56,7 @@ We may suspend or terminate accounts that violate these Terms, particularly if w
 
 ## 4. Care Circles and Family Coordination
 
-CareCircle is built around "care circles" — private groups of family members coordinating care for one patient. By inviting someone to your circle, you confirm that you have a legitimate caregiving relationship with that person and the patient.
+Juntos is built around "care circles" — private groups of family members coordinating care for one patient. By inviting someone to your circle, you confirm that you have a legitimate caregiving relationship with that person and the patient.
 
 You're responsible for:
 
@@ -74,9 +74,9 @@ We're not responsible for:
 
 ## 5. Your Content
 
-You retain all rights to the patient information, photos, documents, and other content you put into CareCircle ("Your Content").
+You retain all rights to the patient information, photos, documents, and other content you put into Juntos ("Your Content").
 
-By using CareCircle to sync Your Content across your devices and your circle members, you grant us a limited license to store, process, and display Your Content solely for the purpose of providing the service. We do not use Your Content for advertising, training AI models, or anything else.
+By using Juntos to sync Your Content across your devices and your circle members, you grant us a limited license to store, process, and display Your Content solely for the purpose of providing the service. We do not use Your Content for advertising, training AI models, or anything else.
 
 You're responsible for ensuring you have the right to share Your Content (e.g., if it includes another person's medical information, that person consents).
 
@@ -84,25 +84,25 @@ You're responsible for ensuring you have the right to share Your Content (e.g., 
 
 ## 6. AI Features and Third-Party Services
 
-CareCircle's AI questions use **Anthropic's Claude API** through CareCircle's server and Ricardo Ochoa' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by CareCircle and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
+Juntos's AI questions use **Anthropic's Claude API** through Juntos's server and Ricardo Ochoa' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by Juntos and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
 
 We make no warranties about AI accuracy. AI output is a tool, not a fact. Always verify clinical content with your healthcare team.
 
 You can use care coordination features without enabling AI sharing. AI may be temporarily unavailable because of connection problems, provider interruptions, or service limits. The app shows available question counts when it can verify them with the server.
 
-CareCircle also uses Supabase (database + auth + realtime) and Apple services (Keychain, Photos, iCloud). Your data flows through these services per their own terms.
+Juntos also uses Supabase (database + auth + realtime) and Apple services (Keychain, Photos, iCloud). Your data flows through these services per their own terms.
 
 ---
 
 ## 7. Acceptable Use
 
-When using CareCircle, you agree not to:
+When using Juntos, you agree not to:
 
 - Use the service to harm or harass another person
 - Upload content that violates someone else's privacy or legal rights
 - Attempt to reverse engineer, hack, or otherwise compromise the service
 - Use automated systems to access the service in ways that strain it
-- Resell, redistribute, or commercialize CareCircle without our written permission
+- Resell, redistribute, or commercialize Juntos without our written permission
 
 We may suspend accounts that violate these rules.
 
@@ -110,11 +110,11 @@ We may suspend accounts that violate these rules.
 
 ## 8. Pricing and Subscriptions
 
-Eligible verified CareCircle accounts receive **25 free AI answers**, funded by Ricardo Ochoa. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
+Eligible verified Juntos accounts receive **25 free AI answers**, funded by Ricardo Ochoa. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
 
-Where available for purchase, **CareCircle AI Monthly** is **US $7.99 per month**, and **CareCircle AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing CareCircle account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
+Where available for purchase, **Juntos AI Monthly** is **US $7.99 per month**, and **Juntos AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing Juntos account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
 
-Subscriptions renew automatically unless canceled through Apple before renewal. Apple charges your Apple account and handles payment, subscription management, and refund requests under its terms. You can restore eligible purchases and open subscription management from the app. Deleting the app or your CareCircle account does not cancel an Apple subscription.
+Subscriptions renew automatically unless canceled through Apple before renewal. Apple charges your Apple account and handles payment, subscription management, and refund requests under its terms. You can restore eligible purchases and open subscription management from the app. Deleting the app or your Juntos account does not cancel an Apple subscription.
 
 Only a successfully completed model answer consumes an AI question. A safe retry of the same completed request does not consume a second question. If a response was completed but its delivery was interrupted, it may already be counted; retry the same request to recover it. Deterministic safety notices and allowance refreshes do not consume model questions.
 
@@ -138,7 +138,7 @@ To the maximum extent permitted by law:
 - **We do not warrant that the service will be error-free, uninterrupted, or that defects will be corrected.**
 - **We do not warrant the accuracy, completeness, or reliability of any content,** including AI-generated content.
 
-Our total liability to you for any claim arising out of these Terms or your use of CareCircle is limited to the greater of (a) the amount you paid us in the past 12 months, or (b) $100 USD. In no event will we be liable for indirect, incidental, special, consequential, or punitive damages — including but not limited to lost profits, lost data, or personal injury — even if we have been advised of the possibility.
+Our total liability to you for any claim arising out of these Terms or your use of Juntos is limited to the greater of (a) the amount you paid us in the past 12 months, or (b) $100 USD. In no event will we be liable for indirect, incidental, special, consequential, or punitive damages — including but not limited to lost profits, lost data, or personal injury — even if we have been advised of the possibility.
 
 Some jurisdictions don't allow certain exclusions or limitations. In those cases, this section applies to the maximum extent permitted.
 
@@ -146,7 +146,7 @@ Some jurisdictions don't allow certain exclusions or limitations. In those cases
 
 ## 11. Indemnification
 
-You agree to defend, indemnify, and hold harmless Ricardo Ochoa and its officers, employees, and agents from any claim arising out of your use of CareCircle, your violation of these Terms, your violation of any third party's rights, or any content you submit.
+You agree to defend, indemnify, and hold harmless Ricardo Ochoa and its officers, employees, and agents from any claim arising out of your use of Juntos, your violation of these Terms, your violation of any third party's rights, or any content you submit.
 
 ---
 
@@ -172,7 +172,7 @@ If any provision of these Terms is found unenforceable, the rest remains in effe
 
 ## 14. Entire Agreement
 
-These Terms, together with the Privacy Policy, constitute the entire agreement between you and Ricardo Ochoa regarding CareCircle.
+These Terms, together with the Privacy Policy, constitute the entire agreement between you and Ricardo Ochoa regarding Juntos.
 
 ---
 
@@ -184,4 +184,4 @@ Legal: **carecircle89@icloud.com**
 
 ---
 
-*Adelante. 💛*
+*Cuidamos juntos.*

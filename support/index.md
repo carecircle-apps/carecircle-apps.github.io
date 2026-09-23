@@ -1,22 +1,22 @@
 ---
 layout: default
-title: CareCircle Support
+title: Juntos Support
 permalink: /support/
 ---
 
-# CareCircle support
+# Juntos support
 
-CareCircle is operated by Ricardo Ochoa. For app support, account assistance or privacy requests, email [carecircle89@icloud.com](mailto:carecircle89@icloud.com).
+Juntos is operated by Ricardo Ochoa. For app support, account assistance or privacy requests, email [carecircle89@icloud.com](mailto:carecircle89@icloud.com).
 
 Please include your app version, iPhone model, and a description of the issue. Do not email passwords, payment-card details, or patient medical records. Remove personal information from screenshots before sending them.
 
 ## Account and circle access
 
-Sign in using the email associated with your CareCircle account. Use the password-reset option on the sign-in screen if needed. Circle invitations come from a caregiver in that circle; a family invitation provides the family view.
+Sign in using the email associated with your Juntos account. Use the password-reset option on the sign-in screen if needed. Circle invitations come from a caregiver in that circle; a family invitation provides the family view.
 
 ## Subscriptions
 
-AI subscriptions are optional. Open AI options in the app to see plans, restore purchases or manage your subscription. Apple handles purchases. You can also manage or cancel subscriptions in your iPhone Settings under your Apple Account > Subscriptions. Deleting CareCircle or its account does not cancel an Apple subscription.
+AI subscriptions are optional. Open AI options in the app to see plans, restore purchases or manage your subscription. Apple handles purchases. You can also manage or cancel subscriptions in your iPhone Settings under your Apple Account > Subscriptions. Deleting Juntos or its account does not cancel an Apple subscription.
 
 ## Account deletion and privacy
 
@@ -26,4 +26,4 @@ Read the [Privacy Policy](/legal/privacy/) and [Terms of Use](/legal/terms/).
 
 ## Medical emergencies
 
-CareCircle helps families coordinate care. It does not provide emergency response or replace your healthcare team. For an emergency, contact local emergency services.
+Juntos helps families coordinate care. It does not provide emergency response or replace your healthcare team. For an emergency, contact local emergency services.
