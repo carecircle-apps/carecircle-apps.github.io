@@ -4,7 +4,7 @@ permalink: /legal/privacy/
 title: "Privacy Policy"
 description: "How Juntos handles your data — what we collect, where it lives, and your rights over it."
 ---
-**Updated: September 24, 2026**
+**Updated: September 30, 2026**
 
 Juntos is a family-led care coordination app built by Ricardo Ochoa. This Privacy Policy explains what information we collect, how we use it, where it lives, and your rights over it. It's written to be understood, not just to satisfy a checklist.
 
@@ -28,6 +28,7 @@ Juntos collects information in three categories.
 
 ### 1. Information you provide
 
+- **Optional profile photo:** the photo you select and crop is uploaded privately to your account in Supabase. It is not sent to AI or shared with other circle members. You can replace or remove it in Account settings; it is deleted from the active database when your account is deleted.
 - **Account info:** your name, email address, and password (stored hashed by Supabase Auth)
 - **Patient information:** the patient's name, care type, medical history, current diagnoses, medications, symptoms, and any other context you choose to add
 - **Shift logs:** vitals, mood, events, notes, follow-ups, and any other observations you record during a caregiving shift
