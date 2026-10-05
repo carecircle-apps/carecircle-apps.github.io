@@ -4,7 +4,7 @@ permalink: /legal/privacy/
 title: "Privacy Policy"
 description: "How Juntos handles your data — what we collect, where it lives, and your rights over it."
 ---
-**Updated: September 30, 2026**
+**Updated: October 5, 2026**
 
 Juntos is a family-led care coordination app built by Ricardo Ochoa. This Privacy Policy explains what information we collect, how we use it, where it lives, and your rights over it. It's written to be understood, not just to satisfy a checklist.
 
@@ -33,13 +33,14 @@ Juntos collects information in three categories.
 - **Patient information:** the patient's name, care type, medical history, current diagnoses, medications, symptoms, and any other context you choose to add
 - **Shift logs:** vitals, mood, events, notes, follow-ups, and any other observations you record during a caregiving shift
 - **Chat messages:** messages you send to other members of your care circle
+- **Safety reports and blocks:** when you report a message, we store a copy of the selected message (up to 8,000 characters), your chosen reason, reporter and reported-account identifiers, circle and message identifiers, and review status/timestamps in private Supabase records. Blocking stores your account identifier, the blocked account identifier/name and the time of the block. These records support user safety; they are not sent to AI or automatically forwarded by email.
 - **Documents and scanned text:** text you import or save from a selected photo. Photo recognition runs on your device; saved text can become shared patient context.
 - **AI conversations:** the questions you ask the AI features and the context provided to them
 
 ### 2. Service information
 
 - **Authentication and security records:** our hosting and authentication providers process technical request information, such as IP addresses and request timestamps, to operate and secure the service.
-- **AI usage and purchase records:** account-linked request identifiers, allowance counts, answer-source identifiers, latency and subscription information support limits, retries, billing and troubleshooting. These records are not anonymous screen-usage analytics.
+- **AI usage and purchase records:** account- and circle-linked request identifiers, allowance counts, answer-source identifiers, latency and subscription information support limits, retries, billing and troubleshooting. Each circle receives one shared 25-answer free allowance. Existing circles receive a new launch allocation when the shared allowance is introduced; historical per-account usage stays in its historical ledger and is not reassigned. Joining or rejoining a circle does not add questions. Paid allowances remain personal to the purchaser. These records are not anonymous screen-usage analytics.
 - This version does not include a separate advertising, screen-tracking or crash-reporting SDK.
 
 ### 3. Information we do NOT collect
@@ -74,11 +75,21 @@ If you create or join a care circle, the following is stored in our backend, hos
 
 For the care-circle features described here, we use circle membership, roles, Postgres Row-Level Security and server-side authorization checks to restrict ordinary app access. Authorized backend services and administrators have separate operational access; circle permissions do not make the data unreadable to the service operator.
 
+### Circle invitations and chat safety
+
+Both caregiver and family invite codes create a request that the circle’s original creator must approve. Having a code alone does not grant circle access. Existing approved memberships are not removed by introducing this approval process.
+
+In Chat, you can report a selected message or block its sender. A block hides messages between those two accounts; it does not remove either person from their circles or prevent access to other shared care features. You can manage blocked members in Chat. A narrow automated phrase filter rejects certain clearly abusive messages; it is not comprehensive, does not evaluate medical accuracy and can miss harmful content.
+
+Ricardo Ochoa reviews the private report queue daily and within 24 hours of a report. Depending on the review, the operator may remove a message or suspend chat posting. Reports are not visible to ordinary circle members. This process is not an emergency service or continuous monitoring. For immediate danger, contact local emergency services.
+
+Closed reports are scheduled for manual removal from the active database within 30 days after closure. This is an operator task, not an automated deletion job; a missed task can delay removal. Account deletion also removes linked reports according to their database relationships. Backups can retain earlier copies under the provider’s backup policy. Contact us if you need a retention or deletion review.
+
 ### AI processing (Anthropic Claude)
 
 When you enable AI sharing and send a question, your question and selected care context pass through **Juntos's server** to **Anthropic's Claude API**. Ricardo Ochoa supplies the provider account; you do not need to supply an API key. This processing can include sensitive health information you have chosen to record. Only share information you are authorized to share.
 
-**Optional automatic Roadmap updates:** In versions that offer this switch, an authorized caregiver can separately enable automatic milestone updates for their account and selected circle. At sign-in or when “Update milestones” is selected, Juntos checks recent saved Context notes and existing milestones. When the notes have changed and refresh limits permit, automatic updates send a bounded selection to Anthropic to organize recorded steps. A manual update can check the same notes again. Detailed AI-organized milestones are displayed in caregiver view. Family view displays only generic roadmap topics, such as rehabilitation or coming home, without milestone titles, descriptions or source details; this describes the family screen, not a separate backend access restriction. This is not medical advice, a recovery assessment, or a guarantee of accuracy; review results against the source notes. New automated steps remain pending, and caregivers confirm completion. Automation does not change completion status. Manual edits take precedence over later automated updates. Turn the switch off to stop future automatic processing for that account and circle; this does not recall information already sent. Manual milestone updates include a trial of 10 successful checks per account, shared across its care circles. A successful check counts even if it finds no new milestones; failed or blocked checks and automatic updates do not consume this trial. Automatic refreshes have a separate company-funded limit. Neither type of milestone refresh deducts AI question credits. The refresh ledger stores consent, request timestamps, counters and content fingerprints, not additional copies of the source notes. Unedited AI milestones are removed when their source note is deleted; shared milestones that people edited remain subject to the deletion limitations below.
+**Optional automatic Roadmap updates:** In versions that offer this switch, an authorized caregiver can separately enable automatic milestone updates for their account and selected circle. At sign-in or when “Update milestones” is selected, Juntos checks recent saved Context notes and existing milestones. When the notes have changed and refresh limits permit, automatic updates send a bounded selection to Anthropic to organize recorded steps. A manual update can check the same notes again. Detailed AI-organized milestones are displayed in caregiver view. Family view displays only generic roadmap topics, such as rehabilitation or coming home, without milestone titles, descriptions or source details; server access to detailed milestone rows is restricted to caregivers. The family overview uses only generic discussion-topic keys and does not indicate a confirmed clinical stage or completion percentage. This is not medical advice, a recovery assessment, or a guarantee of accuracy; review results against the source notes. New automated steps remain pending, and caregivers confirm completion. Automation does not change completion status. Manual edits take precedence over later automated updates. Turn the switch off to stop future automatic processing for that account and circle; this does not recall information already sent. Manual milestone updates include a trial of 10 successful checks per account, shared across its care circles. A successful check counts even if it finds no new milestones; failed or blocked checks and automatic updates do not consume this trial. Automatic refreshes have a separate company-funded limit. Neither type of milestone refresh deducts AI question credits. The refresh ledger stores consent, request timestamps, counters and content fingerprints, not additional copies of the source notes. Unedited AI milestones are removed when their source note is deleted; shared milestones that people edited remain subject to the deletion limitations below.
 
 - Questions may also be sent to Juntos's server for safety and reference-library lookups. General answers may be cached within your circle with their question text; patient-context answers bypass that cache. The cache is separate from the quota service's encrypted retry store.
 - The current app does not automatically submit questions or AI answers to the general library-curation queue. Any older queued records require a separate retention review; they are not automatically published.

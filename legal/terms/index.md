@@ -4,7 +4,7 @@ permalink: /legal/terms/
 title: "Terms of Use"
 description: "The agreement that governs your use of Juntos, the family-led care coordination app."
 ---
-**Last updated: September 8, 2026**
+**Updated: October 5, 2026**
 
 These Terms of Use ("Terms") govern your use of the Juntos mobile application and related services, provided by **Ricardo Ochoa** ("we," "us," "Ricardo Ochoa," or "Juntos"). By using Juntos, you agree to these Terms. If you don't agree, please do not use the app.
 
@@ -19,7 +19,7 @@ This is the most important thing to understand.
 Juntos is a family-led care coordination tool. **Juntos is not a medical device, not a healthcare provider, not a substitute for professional medical care, and does not provide medical advice.**
 
 - Information you record in Juntos (vitals, symptoms, AI-generated summaries, etc.) is for your own family's reference and convenience.
-- AI-generated content (handoff briefs, rounds questions, lab interpretations, family updates, etc.) is a draft starting point, not a clinical assessment. AI can be wrong, miss important details, or generate misleading text. Always verify with your healthcare team.
+- AI-generated answers and suggested questions for your care team are draft starting points, not a clinical assessment. AI can be wrong, miss important details, or generate misleading text. Always verify with your healthcare team.
 - Juntos does not diagnose, treat, cure, or prevent any disease or condition.
 - Do not rely on Juntos in an emergency. If you believe someone is having a medical emergency, call 911 (or your local emergency number) or go to the nearest emergency department.
 - Always defer to your loved one's licensed physicians, nurses, and other healthcare professionals.
@@ -38,7 +38,7 @@ You can use Juntos if:
 
 You may NOT use Juntos:
 
-- For commercial healthcare delivery (we are not a HIPAA Business Associate)
+- For regulated clinical workflows or commercial healthcare delivery without a separate agreement and assessment of applicable obligations; we do not currently offer Business Associate Agreements
 - To document the care of someone who has not consented to your involvement
 - In violation of any applicable law
 
@@ -48,7 +48,7 @@ You may NOT use Juntos:
 
 When you create an account, you agree to provide accurate information. You're responsible for keeping your password secure and for everything that happens under your account. Notify us immediately if you suspect unauthorized access.
 
-You can delete your account at any time from More → Security → Delete Account. Deletion is permanent and cannot be undone.
+You can request account deletion in More → Security → Delete Account, or Account in family view. Deleting your sign-in account is permanent. The Privacy Policy describes current shared-record and retention limitations. Deleting your Juntos account does not cancel a subscription billed by Apple; manage that subscription separately through Apple.
 
 We may suspend or terminate accounts that violate these Terms, particularly if we discover misuse that could harm other users.
 
@@ -56,7 +56,7 @@ We may suspend or terminate accounts that violate these Terms, particularly if w
 
 ## 4. Care Circles and Family Coordination
 
-Juntos is built around "care circles" — private groups of family members coordinating care for one patient. By inviting someone to your circle, you confirm that you have a legitimate caregiving relationship with that person and the patient.
+Juntos is built around "care circles" — private groups of family members coordinating care for one patient. A caregiver or family invitation requests membership; the original circle creator must approve a new member before access is granted. A shared code alone does not grant access. By inviting someone to your circle, you confirm that you have a legitimate caregiving relationship with that person and the patient.
 
 You're responsible for:
 
@@ -76,7 +76,7 @@ We're not responsible for:
 
 You retain all rights to the patient information, photos, documents, and other content you put into Juntos ("Your Content").
 
-By using Juntos to sync Your Content across your devices and your circle members, you grant us a limited license to store, process, and display Your Content solely for the purpose of providing the service. We do not use Your Content for advertising, training AI models, or anything else.
+By using Juntos to sync Your Content across your devices and your circle members, you grant us a limited license to store, process, and display Your Content solely for the purpose of providing the service. We do not use Your Content for advertising or to train our own AI models. Processing by service providers, including Anthropic when you enable AI sharing, is described in the Privacy Policy and governed by the applicable provider arrangements.
 
 You're responsible for ensuring you have the right to share Your Content (e.g., if it includes another person's medical information, that person consents).
 
@@ -84,13 +84,13 @@ You're responsible for ensuring you have the right to share Your Content (e.g., 
 
 ## 6. AI Features and Third-Party Services
 
-Juntos's AI questions use **Anthropic's Claude API** through Juntos's server and Ricardo Ochoa' provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by Juntos and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
+Juntos's AI questions use **Anthropic's Claude API** through Juntos's server and Ricardo Ochoa’s provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by Juntos and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
 
 We make no warranties about AI accuracy. AI output is a tool, not a fact. Always verify clinical content with your healthcare team.
 
 You can use care coordination features without enabling AI sharing. AI may be temporarily unavailable because of connection problems, provider interruptions, or service limits. The app shows available question counts when it can verify them with the server.
 
-Juntos also uses Supabase (database + auth + realtime) and Apple services (Keychain, Photos, iCloud). Your data flows through these services per their own terms.
+Juntos also uses Supabase for hosting, authentication and synchronization, and Apple services for subscriptions and device features such as Keychain and photo selection. The app does not provide care-circle synchronization through your personal iCloud account. Your own Photos or device-backup settings may separately involve Apple services; see the Privacy Policy.
 
 ---
 
@@ -104,13 +104,18 @@ When using Juntos, you agree not to:
 - Use automated systems to access the service in ways that strain it
 - Resell, redistribute, or commercialize Juntos without our written permission
 
+You can report a selected chat message and choose a reason, or block its sender using the Chat controls. Blocking hides messages between the two accounts; it does not remove circle membership or hide all other shared care records. A narrow phrase filter rejects certain abusive chat content but is not comprehensive. Do not assume every harmful message will be detected.
+
+Ricardo Ochoa reviews reports daily and within 24 hours. We may remove violating messages or suspend chat posting following review. Reports are not an emergency-response channel; contact local emergency services for immediate danger. Report data, private review access and the manual closed-report retention process are described in the Privacy Policy.
+
 We may suspend accounts that violate these rules.
 
 ---
 
 ## 8. Pricing and Subscriptions
 
-Eligible verified Juntos accounts receive **25 free AI answers**, funded by Ricardo Ochoa. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The allowance is shared across that account's devices and care circles.
+
+Each care circle receives **25 free AI answers in total**, funded by Ricardo Ochoa and shared by its verified members. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The creator and all members who join later use the same circle balance across devices. Joining or rejoining does not create another trial allowance. Paid subscriptions remain associated with the purchasing Juntos account. When this shared allowance is introduced, existing circles receive one new 25-answer launch allocation. Historical per-account usage is retained separately and is not deducted from that new allocation. This is a one-time transition, not a recurring reset.
 
 Where available for purchase, **Juntos AI Monthly** is **US $7.99 per month**, and **Juntos AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing Juntos account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
 
