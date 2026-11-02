@@ -4,7 +4,7 @@ permalink: /legal/terms/
 title: "Terms of Use"
 description: "The agreement that governs your use of Juntos, the family-led care coordination app."
 ---
-**Updated: October 5, 2026**
+**Updated: November 2, 2026**
 
 These Terms of Use ("Terms") govern your use of the Juntos mobile application and related services, provided by **Ricardo Ochoa** ("we," "us," "Ricardo Ochoa," or "Juntos"). By using Juntos, you agree to these Terms. If you don't agree, please do not use the app.
 
@@ -48,7 +48,7 @@ You may NOT use Juntos:
 
 When you create an account, you agree to provide accurate information. You're responsible for keeping your password secure and for everything that happens under your account. Notify us immediately if you suspect unauthorized access.
 
-You can request account deletion in More → Security → Delete Account, or Account in family view. Deleting your sign-in account is permanent. The Privacy Policy describes current shared-record and retention limitations. Deleting your Juntos account does not cancel a subscription billed by Apple; manage that subscription separately through Apple.
+You can request account deletion in More → Account & security → Delete account, or Account in family view. Deleting your sign-in account is permanent. The Privacy Policy describes current shared-record and retention limitations. Deleting your Juntos account does not cancel a subscription billed by Apple; manage that subscription separately through Apple.
 
 We may suspend or terminate accounts that violate these Terms, particularly if we discover misuse that could harm other users.
 
@@ -84,13 +84,19 @@ You're responsible for ensuring you have the right to share Your Content (e.g., 
 
 ## 6. AI Features and Third-Party Services
 
-Juntos's AI questions use **Anthropic's Claude API** through Juntos's server and Ricardo Ochoa’s provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by Juntos and Anthropic as described in the Privacy Policy. Purchasing a subscription does not automatically grant AI sharing permission.
+Juntos's AI questions use **Anthropic's Claude API** through Juntos's server and Ricardo Ochoa’s provider account. You do not need a personal API key. With your AI sharing permission, your question and selected care context are processed by Juntos and Anthropic as described in the Privacy Policy. Purchasing a subscription or extra questions does not automatically grant AI sharing permission.
+
+Saved context documents and recorded care observations can inform questions, handoffs, preparation tools and optional milestone suggestions. Each request uses a bounded selection; a whole file is included only when it fits, and other requests use excerpts. The saved originals remain intact. An omitted detail is not evidence that it was never recorded. Remembered AI conversations are unverified background, stored locally for the same account and circle; selected excerpts may be included in later permitted requests. They do not establish clinical facts or change medication instructions.
+
+Milestone sharing and automatic updates have a separate account-and-circle permission in Plan → Sharing & automatic updates. When enabled and limits permit, saved context changes, sign-in or returning to the app can trigger a check using document excerpts, recent shift observations and handoff notes, existing milestones and local unverified conversation memory. Memory alone cannot support a milestone. New AI steps remain pending until a caregiver confirms completion, and automation preserves manual edits. These checks have separate limits and do not consume AI question credits.
+
+Guided drafts and optional conversation notes are saved locally by account, circle, tool and language; they are not automatically shared or synced across devices. Successfully saved drafts can be reopened without another generation. Copy, Share and Doctor Rounds PDF export let you reuse output through a destination you choose. You are responsible for checking its accuracy, keeping the draft context and choosing authorized recipients; copies saved or sent outside Juntos cannot be recalled by clearing the app’s history or deleting its account.
 
 We make no warranties about AI accuracy. AI output is a tool, not a fact. Always verify clinical content with your healthcare team.
 
 You can use care coordination features without enabling AI sharing. AI may be temporarily unavailable because of connection problems, provider interruptions, or service limits. The app shows available question counts when it can verify them with the server.
 
-Juntos also uses Supabase for hosting, authentication and synchronization, and Apple services for subscriptions and device features such as Keychain and photo selection. The app does not provide care-circle synchronization through your personal iCloud account. Your own Photos or device-backup settings may separately involve Apple services; see the Privacy Policy.
+Juntos also uses Supabase for hosting, authentication and synchronization, and Apple services for purchases and device features such as Keychain and photo selection. The app does not provide care-circle synchronization through your personal iCloud account. Your own Photos or device-backup settings may separately involve Apple services; see the Privacy Policy.
 
 ---
 
@@ -118,6 +124,10 @@ We may suspend accounts that violate these rules.
 Each care circle receives **25 free AI answers in total**, funded by Ricardo Ochoa and shared by its verified members. This is a question allowance, not a time-based Apple free trial. No subscription starts automatically when those questions are used. The creator and all members who join later use the same circle balance across devices. Joining or rejoining does not create another trial allowance. Paid subscriptions remain associated with the purchasing Juntos account. When this shared allowance is introduced, existing circles receive one new 25-answer launch allocation. Historical per-account usage is retained separately and is not deducted from that new allocation. This is a one-time transition, not a recurring reset.
 
 Where available for purchase, **Juntos AI Monthly** is **US $7.99 per month**, and **Juntos AI Annual** is **US $79.99 per year**. Each plan includes **50 AI answers per monthly allowance period**. The annual plan is billed annually, with its allowance renewed monthly. Unused monthly questions do not roll over. An active subscription belongs to the purchasing Juntos account, not every member of a care circle. Local prices, currency, and applicable taxes are shown by Apple before purchase.
+
+Where offered, **Extra 25 Questions** is a one-time **US $4.99** purchase and **Extra 75 Questions** is a one-time **US $12.99** purchase. Apple shows the local price and applicable taxes before confirmation. These extra questions do not renew automatically and do not expire. They belong to the Juntos account signed in when purchased and can be used across that account’s care circles. Shared free questions are used first, then available monthly subscription questions, then bought extra questions. Only a successfully completed model answer uses a question. Failed generation does not use a question; interrupted delivery of a completed answer is handled as described below. Extra questions do not increase automatic milestone-update limits.
+
+Unused bought questions are held on Juntos’s server and sync when you sign in to the same Juntos account. If a purchase is interrupted, use Check purchase or Refresh extra questions before buying again. Apple’s Restore purchases applies to eligible subscriptions; consumed StoreKit purchases are not restored by Apple as subscriptions. Deleting your Juntos account removes access to that account’s unused questions and does not transfer them to another account. Apple handles refund requests; refunded or revoked purchases are removed from the available balance. Temporary service or safety limits can pause generation while unused questions remain available for later use.
 
 Subscriptions renew automatically unless canceled through Apple before renewal. Apple charges your Apple account and handles payment, subscription management, and refund requests under its terms. You can restore eligible purchases and open subscription management from the app. Deleting the app or your Juntos account does not cancel an Apple subscription.
 
